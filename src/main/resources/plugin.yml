@@ -1,0 +1,9 @@
+name: RangPlugin
+version: '${project.version}'
+main: de.steallight.rangplugin.RangPlugin
+api-version: '1.20'
+author: SteallightDevelopment
+
+commands:
+  rang:
+    description: Dieser Befehl weißt Ränge zu
