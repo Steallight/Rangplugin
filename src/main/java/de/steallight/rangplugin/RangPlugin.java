@@ -24,6 +24,8 @@ import java.io.File;
 public final class RangPlugin extends JavaPlugin {
 
     private JDA jda;
+
+    private static RangPlugin INSTANCE;
     public static String prefix;
 
     public void config() {
@@ -48,6 +50,7 @@ public final class RangPlugin extends JavaPlugin {
 
         config();
         saveDefaultConfig();
+        INSTANCE = this;
         try {
 
 
@@ -113,6 +116,11 @@ public final class RangPlugin extends JavaPlugin {
 
                 ).queue();
     }
+
+
+public static RangPlugin getPlugin(){
+        return INSTANCE;
+}
 
 
 }

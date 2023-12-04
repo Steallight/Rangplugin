@@ -1,5 +1,6 @@
 package de.steallight.rangplugin.dcCMDs;
 
+import de.steallight.rangplugin.RangPlugin;
 import net.dv8tion.jda.api.EmbedBuilder;
 import net.dv8tion.jda.api.entities.channel.concrete.TextChannel;
 import net.dv8tion.jda.api.events.interaction.command.SlashCommandInteractionEvent;
