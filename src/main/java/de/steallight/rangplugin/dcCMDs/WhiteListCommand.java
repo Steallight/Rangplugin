@@ -21,7 +21,7 @@ public class WhiteListCommand extends ListenerAdapter {
             String minecraftname = e.getOption("minecraftname").getAsString();
             String plattform = e.getOption("platform").getAsString();
             OfflinePlayer player = Bukkit.getOfflinePlayer(minecraftname);
-
+            System.out.println("Test");
             if (!player.isWhitelisted()) {
                 TextChannel tc = e.getGuild().getTextChannelById("802542719926272000");
 
