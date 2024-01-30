@@ -13,7 +13,7 @@ import java.util.Arrays;
 
 public final class RangPlugin extends JavaPlugin {
 
-    private JDA jda;
+
 
     private static RangPlugin INSTANCE;
     public static String prefix;
