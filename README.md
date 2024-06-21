@@ -4,7 +4,7 @@
 The RankPlugin is a custom Minecraft plugin to assign players to a group with a simple command. Instead of using PEX, this plugin works with [LuckPerms](https://luckperms.net/).
 
 
-![GitHub Release](https://img.shields.io/github/v/release/Steallight/Rangplugin)
+[![GitHub Release](https://img.shields.io/github/v/release/Steallight/Rangplugin)]
 
 
 
